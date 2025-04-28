@@ -5,11 +5,17 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
 
+// estado, código da carta, nome da cidade, população, área, PIB e número de pontos turísticos
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-
-    
+    char state[50]; 
+    char id_card[50];
+    char name_city[50];
+    float population;
+    float field;
+    float pib;  
+    int tourist_spot_numbers;
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
