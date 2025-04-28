@@ -11,7 +11,7 @@ int main() {
     // Você pode utilizar o código do primeiro desafio
     char state[50]; 
     char id_card[50];
-    char name_city[50];
+    char city[50];
     float population;
     float field;
     float pib;  
@@ -26,6 +26,27 @@ int main() {
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &city);
+    
+    printf("Digite o nome do estado: \n");
+    scanf("%s", &state);
+
+    printf("Digite o codigo da carta: \n");
+    scanf("%s", &id_card);
+
+    printf("Digite a quantidade de pupolação: \n");
+    scanf("%f", &population);
+
+    printf("Digite o tamanho da área: \n");
+    scanf("%f", &field);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%d", &tourist_spot_numbers);
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
